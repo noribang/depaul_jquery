@@ -1,0 +1,108 @@
+<!-- Student: Hoon Kim
+     Date:    March 4, 2016
+     Class:   IPD_356_801_0965 - WEB DEV JAVASCRIPT & HTML5 PRG - 
+     Term:    2015-2016 Winter-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        
+    </head>
+    <body>
+        <table align="left" width="600px" border="0" cellpadding="5px">
+            <tr>
+                <td>
+                <form name="form1">
+                    <table border="0">
+                        <tr>
+                            <td width="300px"><strong>Last Name: </strong></td>
+                            <td width="300px"><input type="text" name="txtFirstName" value=" " size="20" /></td>
+                        </tr>
+
+                        <tr>
+                            <td><strong>First Name: </strong></td>
+                            <td><input type="text" name="txtLastName" value=" " size="20" /></td>
+                        </tr>
+
+                        <tr>
+                            <td><strong>Nationality: </strong></td>
+                            <td><select name="selNationality">
+                                    <option value="amer">USA</option>
+                                    <option value="can">Canada</option>
+                                    <option value="mex">Mexico</option>
+                                    <option value="ger">Germany</option>
+                                    <option value="fra">France</option>
+                                </select>
+                            </td>
+                        </tr>
+
+<!--                    <tr>
+                            <td><strong>City you wish to visit: </strong></td>
+                            <td><input type="radio" name="radCity" value="New York City" />New York City<br />
+                                <input type="radio" name="radCity" value="Boston" />Boston<br />
+                                <input type="radio" name="radCity" value="San Francisco" />San Francisco ($200 surcharge)<br />
+                                <input type="radio" name="radCity" value="Los Angeles" />Los Angeles ($200 surcharge)<br/>
+                            </td>
+                        </tr> -->
+                        <tr>
+                            <td><strong>Number of days ($150 per day): </strong></td>
+                            <td><select name="selNumberDays">
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                                <option value="13">13</option>
+                                <option value="14">14</option>
+                                <option value="15">15</option>
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td><strong>Other options: </strong></td>
+                            <td>
+                                <input type="checkbox" name="chkFirst" />First Class Only ($500 surcharge)<br />
+                                <input type="checkbox" name="chkSpouse" />Traveling with Spouse (All costs doubled)<br />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="ui-widget">
+                                  <label for="city">City you wish to visit: </label>
+                                  <input id="city">
+                                  Powered by <a href="http://geonames.org">geonames.org</a>
+                                </div>
+                                 
+                                <div class="ui-widget" style="margin-top:2em; font-family:Arial">
+                                  Result:
+                                  <div id="log" style="height: 200px; width: 300px; overflow: auto;" class="ui-widget-content"></div>
+                                </div>
+                            </td>
+
+                        </tr>
+
+
+                        <tr>
+                            <td align="right"><input type="button" value="Give me an estimate!"></td>
+                            <td align="left"><input type="reset" /></td>
+                        </tr>
+                    </table>
+                </form><!--end form-->
+                </td>
+            </tr>
+        </table>
+
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+
+ 
+    </body>
+</html>
