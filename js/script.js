@@ -13,7 +13,7 @@ $(document).ready(function() {
     $( "#city" ).autocomplete({
       source: function( request, response ) {
         $.ajax({
-          url: "https://gd.geobytes.com/AutoCompleteCity",
+          url: "http://gd.geobytes.com/AutoCompleteCity",
           dataType: "jsonp",
           data: {
             q: request.term
